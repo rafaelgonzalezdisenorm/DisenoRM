@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Diseño RM Integral S.A.S.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Diseño<span>RM</span>Integral S.A.S.</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="portafolio.html">Portafolio</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <main class="page-content">
+        
+        <header class="portfolio-hero">
+            <div class="hero-content">
+                <h1>Nuestros Proyectos Inspiradores</h1>
+                <p>Usa los botones para filtrar por servicio o haz clic para ver la descripción detallada.</p>
+            </div>
+        </header>
+
+        <section class="portfolio-gallery">
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="remodelacion">Remodelación</button>
+                <button class="filter-btn" data-filter="muebles">Muebles</button>
+                <button class="filter-btn" data-filter="pintura">Pintura</button>
+            </div>
+
+            <div class="gallery-grid" id="project-gallery">
+                
+                <a href="proyecto.html?id=cocina_lujo" class="gallery-item remodelacion muebles" data-category="remodelacion muebles"> 
+                    <img src="./assets/img/cocinaabierta.jpg" alt="Cocina Remodelada">
+                    <div class="overlay">Cocina Integral</div>
+                </a>
+                
+                <a href="proyecto.html?id=pintura_catalizada" class="gallery-item pintura" data-category="pintura">
+                    <img src="./assets/img/acabado_especial.jpg" alt="Acabado de pintura">
+                    <div class="overlay">Pintura Catalizada</div>
+                </a>
+                
+                <a href="proyecto.html?id=closet_melamina" class="gallery-item muebles" data-category="muebles">
+                    <img src="./assets/img/armario.jpg" alt="Closet en melamina">
+                    <div class="overlay">Clóset a Medida</div>
+                </a>
+                
+                <a href="proyecto.html?id=bano_lujo" class="gallery-item remodelacion" data-category="remodelacion">
+                    <img src="./assets/img/baño.jpg" alt="Baño de lujo">
+                    <div class="overlay">Remodelación de Baño</div>
+                </a>
+
+                <a href="proyecto.html?id=mueble_tv" class="gallery-item muebles" data-category="muebles">
+                    <img src="./assets/img/muebledetv.jpg" alt="Mueble de TV">
+                    <div class="overlay">Centro de Entretenimiento</div>
+                </a>
+                
+                <a href="proyecto.html?id=fachada_acabado" class="gallery-item pintura remodelacion" data-category="pintura remodelacion">
+                    <img src="./assets/img/fachada.jpg" alt="Fachada Pintada">
+                    <div class="overlay">Acabado de Fachada</div>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="footer-content">
+            <h3>Diseño RM Integral S.A.S.</h3>
+            <p>Contáctanos y hagamos realidad tu proyecto.</p>
+            <div class="socials">
+                <a href="tel:+573045792007"><i class="fas fa-phone"></i></a>
+                <a href="ragot@hotmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/disenorm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/573045792007" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p class="copyright">© 2023 Diseño RM Integral S.A.S. | Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <a href="https://wa.me/573001234567" class="whatsapp-float" target="_blank">...</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
