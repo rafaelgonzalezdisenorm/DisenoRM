@@ -537,8 +537,16 @@ footer {
         border-top: none; /* Quitamos borde rojo en móvil para ganar espacio */
     }
     .logo {
-        font-size: 1.4rem;
+        font-size: 1rem;
+        margin-left: 5rem;
     }
+
+    .logo span {
+        font-weight: 800;
+        font-size: 1.1rem;
+        color: var(--brand-red); /* "RM" en rojo como el logo */
+    }
+
     .nav-links {
         display: none; 
         width: 100%; 
@@ -563,8 +571,8 @@ footer {
         display: flex;
         flex-direction: column; 
         justify-content: space-between; 
-        width: 30px; 
-        height: 21px; 
+        width: 20px; 
+        height: 20px; 
         cursor: pointer;
     }
     .menu-toggle .bar { 

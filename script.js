@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Accesorios: Jabonera y dispensador a juego con la grifería.'
             ],
             images: [
-                './assets/img/baño.jpg', 
+                './assets/img/bano.jpg', 
             ]
         },
         'mueble_tv': {
